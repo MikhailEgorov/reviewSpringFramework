@@ -7,16 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F0D0720289C50250011358B /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0D071F289C50250011358B /* DescriptionView.swift */; };
 		5F8A68A4289C443C00174405 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A68A3289C443C00174405 /* AppDelegate.swift */; };
 		5F8A68A6289C443C00174405 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A68A5289C443C00174405 /* SceneDelegate.swift */; };
 		5F8A68A8289C443C00174405 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A68A7289C443C00174405 /* ViewController.swift */; };
 		5F8A68AB289C443C00174405 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F8A68A9289C443C00174405 /* Main.storyboard */; };
 		5F8A68AD289C443F00174405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F8A68AC289C443F00174405 /* Assets.xcassets */; };
 		5F8A68B0289C443F00174405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F8A68AE289C443F00174405 /* LaunchScreen.storyboard */; };
+		5FAFBE5528A2EDD500F57D28 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAFBE5428A2EDD500F57D28 /* DataManager.swift */; };
+		E3A56BF968FA41736E7A6E08 /* Pods_reviewSpringFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 197048BEA6D4D20FE29E7A78 /* Pods_reviewSpringFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5F8A68A0289C443C00174405 /* reviewSpringFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reviewSpringFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		197048BEA6D4D20FE29E7A78 /* Pods_reviewSpringFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reviewSpringFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F0A043728A2D2F90071504A /* reviewSpringFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reviewSpringFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F0D071F289C50250011358B /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
 		5F8A68A3289C443C00174405 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F8A68A5289C443C00174405 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5F8A68A7289C443C00174405 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		5F8A68AC289C443F00174405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F8A68AF289C443F00174405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F8A68B1289C443F00174405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FAFBE5428A2EDD500F57D28 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		8A91D4C714D141BDF95F9CDF /* Pods-reviewSpringFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reviewSpringFramework.debug.xcconfig"; path = "Target Support Files/Pods-reviewSpringFramework/Pods-reviewSpringFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		BE17464B5E39C85C569D9E24 /* Pods-reviewSpringFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reviewSpringFramework.release.xcconfig"; path = "Target Support Files/Pods-reviewSpringFramework/Pods-reviewSpringFramework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,31 +39,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3A56BF968FA41736E7A6E08 /* Pods_reviewSpringFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F0D071E289C4FCF0011358B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F0D071F289C50250011358B /* DescriptionView.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		5F8A6897289C443C00174405 = {
 			isa = PBXGroup;
 			children = (
 				5F8A68A2289C443C00174405 /* reviewSpringFramework */,
-				5F8A68A1289C443C00174405 /* Products */,
+				776A935090CAA9C15E15BE44 /* Pods */,
+				C352225E15AA8E43E2E2843D /* Frameworks */,
+				5F0A043728A2D2F90071504A /* reviewSpringFramework.app */,
 			);
-			sourceTree = "<group>";
-		};
-		5F8A68A1289C443C00174405 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5F8A68A0289C443C00174405 /* reviewSpringFramework.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		5F8A68A2289C443C00174405 /* reviewSpringFramework */ = {
 			isa = PBXGroup;
 			children = (
+				5F0D071E289C4FCF0011358B /* Model */,
 				5F8A68A3289C443C00174405 /* AppDelegate.swift */,
 				5F8A68A5289C443C00174405 /* SceneDelegate.swift */,
 				5F8A68A7289C443C00174405 /* ViewController.swift */,
@@ -63,8 +75,26 @@
 				5F8A68AC289C443F00174405 /* Assets.xcassets */,
 				5F8A68AE289C443F00174405 /* LaunchScreen.storyboard */,
 				5F8A68B1289C443F00174405 /* Info.plist */,
+				5FAFBE5428A2EDD500F57D28 /* DataManager.swift */,
 			);
 			path = reviewSpringFramework;
+			sourceTree = "<group>";
+		};
+		776A935090CAA9C15E15BE44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A91D4C714D141BDF95F9CDF /* Pods-reviewSpringFramework.debug.xcconfig */,
+				BE17464B5E39C85C569D9E24 /* Pods-reviewSpringFramework.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C352225E15AA8E43E2E2843D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				197048BEA6D4D20FE29E7A78 /* Pods_reviewSpringFramework.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F8A68B4289C443F00174405 /* Build configuration list for PBXNativeTarget "reviewSpringFramework" */;
 			buildPhases = (
+				CB293993DDF72CF41DAD829E /* [CP] Check Pods Manifest.lock */,
 				5F8A689C289C443C00174405 /* Sources */,
 				5F8A689D289C443C00174405 /* Frameworks */,
 				5F8A689E289C443C00174405 /* Resources */,
+				828306B72F70421F6A09DBBC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,7 +116,7 @@
 			);
 			name = reviewSpringFramework;
 			productName = reviewSpringFramework;
-			productReference = 5F8A68A0289C443C00174405 /* reviewSpringFramework.app */;
+			productReference = 5F0A043728A2D2F90071504A /* reviewSpringFramework.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +143,7 @@
 				Base,
 			);
 			mainGroup = 5F8A6897289C443C00174405;
-			productRefGroup = 5F8A68A1289C443C00174405 /* Products */;
+			productRefGroup = 5F8A6897289C443C00174405;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -133,14 +165,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		828306B72F70421F6A09DBBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reviewSpringFramework/Pods-reviewSpringFramework-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reviewSpringFramework/Pods-reviewSpringFramework-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reviewSpringFramework/Pods-reviewSpringFramework-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB293993DDF72CF41DAD829E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-reviewSpringFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5F8A689C289C443C00174405 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5F8A68A8289C443C00174405 /* ViewController.swift in Sources */,
+				5FAFBE5528A2EDD500F57D28 /* DataManager.swift in Sources */,
 				5F8A68A4289C443C00174405 /* AppDelegate.swift in Sources */,
 				5F8A68A6289C443C00174405 /* SceneDelegate.swift in Sources */,
+				5F0D0720289C50250011358B /* DescriptionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +358,7 @@
 		};
 		5F8A68B5289C443F00174405 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A91D4C714D141BDF95F9CDF /* Pods-reviewSpringFramework.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +387,7 @@
 		};
 		5F8A68B6289C443F00174405 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE17464B5E39C85C569D9E24 /* Pods-reviewSpringFramework.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
